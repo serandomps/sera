@@ -1,0 +1,16 @@
+{
+    "name": "sera",
+    "description": "sera component",
+    "dependencies": {
+        "visionmedia/page.js": "*",
+        "tj/node-querystring": "*"
+    },
+    "local": [],
+    "scripts": [
+        "lay.js",
+        "index.js",
+        "utils.js"
+    ],
+    "templates": [],
+    "main": "index.js"
+}
