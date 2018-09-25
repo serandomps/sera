@@ -19,7 +19,7 @@ App.prototype.lay = function (options) {
         if (!layout) {
             throw new Error('Layout ' + name + ' cannot be found at ' + path)
         }
-        return new Lay(layout, options)
+        return new Lay(app, layout, options)
     }
 }
 
